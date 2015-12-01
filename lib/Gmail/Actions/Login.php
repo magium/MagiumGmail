@@ -1,12 +1,12 @@
 <?php
 
-namespace Magium\Gmail;
+namespace Magium\Gmail\Actions;
 
 use Facebook\WebDriver\WebDriverBy;
 use Facebook\WebDriver\WebDriverExpectedCondition;
 use Magium\AbstractTestCase;
 use Magium\Commands\Open;
-use Magium\Gmail\AccountInformation;
+use Magium\Gmail\Identities\Account;
 use Magium\WebDriver\WebDriver;
 
 class Login
@@ -18,7 +18,7 @@ class Login
     protected $testCase;
 
     public function __construct(
-        AccountInformation  $accountInformation,
+        Account  $accountInformation,
         WebDriver           $webDriver,
         Open                $open,
         AbstractTestCase    $testCase
