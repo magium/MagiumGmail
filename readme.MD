@@ -9,7 +9,7 @@ Using it is pretty simple.
 ### Step 1: Require it
 
 ```
-composer require magium/mail
+composer require magium/gmail
 ```
 
 ### Step 2: Configure it
