@@ -6,13 +6,13 @@ This module has some basic functionality that allows you to log in to Gmail and 
 
 Using it is pretty simple.
 
-Step 1: Require it
+### Step 1: Require it
 
 ```
 composer require magium/mail
 ```
 
-Step 2: Configure it
+### Step 2: Configure it
 
 In the base of your project create a directory called `/configuration/Magium/Gmail/Identities/Gmail` and create a file called `Account.php`.  Add your username and password.
 
@@ -24,7 +24,7 @@ $this->password     = 'mypassword';
 
 ```
 
-Step 3: Integrate it
+### Step 3: Integrate it
 
 Right now you can navigate to an email by subject-equals or subject-contains.
 
