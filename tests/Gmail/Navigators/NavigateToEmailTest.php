@@ -3,15 +3,16 @@
 namespace Tests\Gmail\Navigators;
 
 use Magium\AbstractTestCase;
+use Magium\Gmail\Actions\Gmail\Login;
+use Magium\Gmail\Navigators\Gmail\SelectEmail;
 
 class NavigateToEmailTest extends AbstractTestCase
 {
 
     public function testNavigateToEmailWhereSubjectEquals()
     {
-        $this->get('Magium\Gmail\Actions\Login')->login();
-        $xpath = '//*[@id=":q1"]'
-        $this->get('Magium\Gmail\Navigators\SelectEmail')->navigateToEmailWhereSubjectEquals();
+        $this->getAction(Login::ACTION)->login();
+        $this->getNavigator(SelectEmail::NAVIGATOR)->navigateToEmailWhereSubjectContains('magento');
     }
 
 }
