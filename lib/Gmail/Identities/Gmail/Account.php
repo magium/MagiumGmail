@@ -1,11 +1,12 @@
 <?php
 
-namespace Magium\Gmail\Identities;
+namespace Magium\Gmail\Identities\Gmail;
 
 use Magium\AbstractConfigurableElement;
 
 class Account extends AbstractConfigurableElement
 {
+    const IDENTITY = 'Gmail\Account';
 
     protected $emailAddress;
     protected $password;

@@ -1,17 +1,19 @@
 <?php
 
-namespace Magium\Gmail\Actions;
+namespace Magium\Gmail\Actions\Gmail;
 
 use Facebook\WebDriver\WebDriverBy;
 use Facebook\WebDriver\WebDriverExpectedCondition;
 use Magium\AbstractTestCase;
 use Magium\Commands\Open;
-use Magium\Gmail\Identities\Account;
+use Magium\Gmail\Identities\Gmail\Account;
 use Magium\WebDriver\WebDriver;
 
 class Login
 {
 
+    const ACTION = 'Gmail\Login';
+    
     protected $accountInformation;
     protected $webdriver;
     protected $open;

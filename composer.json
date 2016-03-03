@@ -1,5 +1,5 @@
 {
-  "name" : "magium/magium_gmail",
+  "name" : "magium/gmail",
   "type": "library",
   "description": "Gmail-based functionality for the Magium test library",
   "keywords": ["gmail", "selenium", "webdriver", "testing"],
@@ -14,7 +14,7 @@
     }
   ],
   "require" : {
-    "magium/magium": "^0.0.4"
+    "magium/magium": ">0.0.4 <2.0.0"
   },
   "repositories" : [ {
     "type" : "composer",
@@ -23,6 +23,9 @@
   "autoload" : {
     "psr-4" : {
       "Magium\\" : "lib/"
-    }
+    },
+    "files": [
+      "register.php"
+    ]
   }
 }
