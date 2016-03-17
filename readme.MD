@@ -2,6 +2,8 @@
 
 Sorry for the short intro, but I'm behind on stuff :-)
 
+[Find much more information at magiumlib.com](http://www.magiumlib.com/?utm_source=github&utm_medium=website&utm_campaign=social)
+
 This module has some basic functionality that allows you to log in to Gmail and test to see if an email exists, such as a transactional email.
 
 Using it is pretty simple.
