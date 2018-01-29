@@ -4,7 +4,7 @@
   "description": "Gmail-based functionality for the Magium test library",
   "keywords": ["gmail", "selenium", "webdriver", "testing"],
   "homepage": "http://magiumlib.com/",
-  "license": "ASL-2.0",
+  "license": "Apache-2.0",
   "authors": [
     {
       "name": "Kevin Schroeder",
